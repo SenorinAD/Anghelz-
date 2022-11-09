@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:subdisakayforreal/homeselection.dart';
 import 'package:subdisakayforreal/loginscreen/login_page.dart';
 
 
 void main() => runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: SplashPage(duration: 5, goToPage: LoginScreen())
+    home: SplashPage(duration: 5, goToPage: Login())
 ));
 
 class SplashPage extends StatelessWidget {

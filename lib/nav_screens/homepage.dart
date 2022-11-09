@@ -5,8 +5,8 @@ import 'package:latlong2/latlong.dart' as latlng;
 import 'package:subdisakayforreal/offerpool/offer_pool_route.dart';
 
 
-class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+class HomeMap extends StatelessWidget {
+  const HomeMap({Key? key}) : super(key: key);
 
 
 
@@ -56,7 +56,7 @@ class HomePage extends StatelessWidget {
                 Container(
                     margin: EdgeInsets.fromLTRB(10, 400, 10, 10),
                     height: 50,
-                    width: 200,
+                    width: 150,
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.green, //background color of button
@@ -77,7 +77,7 @@ class HomePage extends StatelessWidget {
                 Container(
                     margin: EdgeInsets.fromLTRB(10, 400, 10, 10),
                     height: 50,
-                    width: 200,
+                    width: 150,
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.green, //background color of button

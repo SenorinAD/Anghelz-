@@ -15,7 +15,7 @@ class _MyStatefulWidgetState extends State<HomeSelection> {
   int _selectedIndex = 0;
 
   final screens = [
-    HomePage(),
+    HomeMap(),
     MessagePage(),
     NotificationPage(),
     AccountSettings(),
