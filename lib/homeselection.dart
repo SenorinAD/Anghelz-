@@ -3,6 +3,8 @@ import 'package:subdisakayforreal/nav_screens/accoutsettingspage.dart';
 import 'package:subdisakayforreal/nav_screens/homepage.dart';
 import 'package:subdisakayforreal/nav_screens/messagepage.dart';
 import 'package:subdisakayforreal/nav_screens/notificationpage.dart';
+import 'package:subdisakayforreal/settings/setting_screen.dart';
+
 
 class HomeSelection extends StatefulWidget {
   const HomeSelection({Key? key}) : super(key: key);
@@ -18,7 +20,7 @@ class _MyStatefulWidgetState extends State<HomeSelection> {
     HomeMap(),
     MessagePage(),
     NotificationPage(),
-    AccountSettings(),
+    SettingsScreen(),
   ];
 
 

@@ -131,47 +131,12 @@ class AccountSettings extends StatelessWidget {
                 ],
               ),
             ),
-            SizedBox(height: 40,),
-            Row(
-              children: [
-                Icon(Icons.volume_up,
-                  color: Colors.green,
-                ),
-                SizedBox(width: 8),
-                Text(
-                  "Notification",
-                  style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold),
-                ),
-              ],
-            ),
-            Divider(
-              height: 15,
-              thickness: 2,
-            ),
-            SizedBox(height: 10,),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text("Notify me if Rides Available", style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.w500,
-                    color: Colors.grey[600]),
-                ),
-                Transform.scale(
-                  scale: 0.7,
-                  child: CupertinoSwitch(value: true, onChanged: (bool val){},
-                ),
-              ),
-              ],
-            ),
-            SizedBox(height: 60,),
+            SizedBox(height: 150,),
             Center(
               child: OutlinedButton(onPressed: (){Navigator.push(
                 context,
                 MaterialPageRoute(
-                    builder: (context) => LoginScreen()),
+                    builder: (context) => Login()),
               );}, child: Text("SIGN OUT",
               style: TextStyle(
                 fontSize: 16,
